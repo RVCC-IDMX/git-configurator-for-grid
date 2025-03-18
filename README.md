@@ -1,4 +1,4 @@
-# Git Configurator
+# Git Configurator For Grid
 
 Git Configurator is a simple VS Code extension that helps you quickly set your global Git configuration by prompting for your username and email, then executing the corresponding commands in the integrated terminal.
 

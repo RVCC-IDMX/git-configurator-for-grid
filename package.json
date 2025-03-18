@@ -2,6 +2,11 @@
   "name": "git-configurator-for-grid",
   "displayName": "git-configurator-for-grid",
   "description": "Set up for git and stuff",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RVCC-IDMX/git-configurator-for-grid.git"
+  },
+  "author": "Cynthia Teeters <cynthiateeters@gmail.com>",
   "version": "0.0.1",
   "engines": {
     "vscode": "^1.98.0"
