@@ -23,9 +23,8 @@ function activate(context) {
       return;
     }
 
-    // Create and show a new terminal
+    // Create a new terminal
     const terminal = vscode.window.createTerminal('Git Configurator');
-    terminal.show();
     // Send the git config commands to the terminal
     terminal.sendText(`git config --global user.name "${username}"`);
     terminal.sendText(`git config --global user.email "${email}"`);
