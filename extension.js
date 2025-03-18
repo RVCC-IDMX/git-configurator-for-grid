@@ -29,6 +29,7 @@ function activate(context) {
     // Send the git config commands to the terminal
     terminal.sendText(`git config --global user.name "${username}"`);
     terminal.sendText(`git config --global user.email "${email}"`);
+    terminal.sendText(`git config --get-regexp '^user\\.(name|email)$' > git-config-check.txt`);
 
     // Notify the user that configuration was successful
     vscode.window.showInformationMessage('Git configuration updated successfully!');
